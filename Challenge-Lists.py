@@ -12,5 +12,45 @@ Expected Result : 2"""
 # Sample List : [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
 # Expected Result : [(2, 1), (1, 2), (2, 3), (4, 4), (2, 5)]
 
-sampleList = [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
 
+# def last(n): return n[1]
+#
+#
+# sampleList = [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+#
+# print(sampleList[1][1])
+# print(sorted(sampleList, key=last))
+
+# sampleList = ['a', 'b', 'c', 'b']
+#
+# noDuplicate = list()
+#
+# for i in sampleList:
+#     if i not in noDuplicate:
+#         noDuplicate.append(i)
+#
+# print(noDuplicate)
+
+
+# sampleList = ['a', 'b', 'c', 'b']
+# secondList = list(sampleList)
+# secondList[0] = 'd'
+#
+# print(sampleList)
+# print(secondList)
+#
+# string = 'The quick brown fox jumps over the lazy dog'
+#
+# length = int(input("Enter length: "))
+#
+# words = string.split(' ')
+# for word in words:
+#     if len(word) > length:
+#         print(word)
+
+list1 = ['abc', 'xyz', 'aba', '1221']
+list2 = ['abc', 'zy', 'ab', '221']
+
+for item in list1:
+    if item in list2:
+        print(item)
