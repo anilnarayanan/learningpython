@@ -115,12 +115,19 @@ Expected Result : 2"""
 # string = "".join(chList)
 # print(string)
 
+# numList = [13,14,15,16,17,18,19,20,21,22,23,24,29,26,27,28,29,30]
+#
+# sortedList = sorted(numList, reverse=1)
+# print(sortedList)
+# print(sortedList[-2])
 
+my_list = [10, 20, 30, 40, 20, 50, 60, 40]
 
+print(set(my_list))
 
+newList = ['a', 'b', 'c', 'a']
 
-
-
+print(set(newList))
 
 
 
