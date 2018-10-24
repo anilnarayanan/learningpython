@@ -48,9 +48,91 @@ Expected Result : 2"""
 #     if len(word) > length:
 #         print(word)
 
-list1 = ['abc', 'xyz', 'aba', '1221']
-list2 = ['abc', 'zy', 'ab', '221']
+# list1 = ['abc', 'xyz', 'aba', '1221']
+# list2 = ['abcd', 'zy', 'ab', '221']
+#
+# for item in list1:
+#     if item in list2:
+#         print(item)
 
-for item in list1:
-    if item in list2:
-        print(item)
+# sampleList = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+# sampleList.remove(sampleList[0])
+# sampleList.remove(sampleList[4])
+# # sampleList.remove(sampleList[5])
+# print(sampleList)
+
+# num = [1,2,3,4,5,7,8,9,10]
+#
+# for i in num:
+#     if i not in range(0, 100, 2):
+#         print(i)
+
+# numList = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
+#
+# counter = 1
+# for i in range(1,30):
+#     # if (i > 0 and i <= 5) or (i >= 25 and i <= 30):
+#     if (0 < i <= 5) or (25 <= i <= 30):
+#         print(i * i)
+#
+
+# numList = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
+#
+# for i in numList:
+#     for j in numList:
+#         print(i * j)
+
+
+# numList = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
+#
+# newList = [1, 3, 2]
+# resultList = list()
+# print(list(set(numList).difference(set(newList))))
+# print(list(set(numList) - (set(newList))))
+# for i in numList:
+#     if i not in newList:
+#         resultList.append(i)
+#
+# print(resultList)
+
+# numList = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
+#
+# index = 0
+# for i in numList:
+#     print(index, ' ', i)
+#     index += 1
+
+
+# chList = ['a', 'b', 'c', 'd', 'e']
+# string = ""
+#
+#
+# for i in chList:
+#     string = string + i
+#
+# print(string)
+#
+# string = "".join(chList)
+# print(string)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
