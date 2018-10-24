@@ -17,14 +17,41 @@
 #     count = 0
 # print(dic)
 
-string = 'welcome'
-newString = ''
-if len(string) > 2:
-    newString = string[0:2] + string[-2:]
-else:
-    print(newString)
+# string = 'welcome'
+# newString = ''
+# if len(string) > 2:
+#     newString = string[0:2] + string[-2:]
+# else:
+#     print(newString)
+#
+# print(newString)
+
+string = 'restart'
+ch = string[0]
+newString = string[0]
+for i in string[1:]:
+    if i in ch:
+        newString += '$'
+    else:
+        newString += i
 
 print(newString)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
