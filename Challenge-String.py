@@ -26,23 +26,53 @@
 #
 # print(newString)
 
-string = 'restart'
-ch = string[0]
-newString = string[0]
-for i in string[1:]:
-    if i in ch:
-        newString += '$'
-    else:
-        newString += i
+# string = 'restart'
+# ch = string[0]
+# newString = string[0]
+# for i in string[1:]:
+#     if i in ch:
+#         newString += '$'
+#     else:
+#         newString += i
+#
+# print(newString)
 
-print(newString)
+# string1 = 'abc'
+# string2 = 'xyz'
+#
+# newString = string2[:2] + string1[2:] + ' ' + string1[:2] + string2[2:]
+# print(newString)
 
-
-
-
-
-
-
+# string = "string"
+#
+# if len(string) >= 3:
+#     if string[-3:] != "ing":
+#         string += "ing"
+#     else:
+#         string += "ly"
+#
+# print(string)
+#
+0#
+# 0thon function that takes a list of words and returns the length of the longest one'
+# 0n"
+# 0est"
+# 0.split()
+# 0
+# 0
+# 0
+0#
+# 0:
+# 0n i:
+# 0
+# 0tString.index(i)
+# 0g in i:
+# 0
+# 0tring.index(i)
+0#
+# 0d)
+# 0(splitString[:start]) + " good " + " ".join(splitString[end+1:])
+# 0
 
 
 
