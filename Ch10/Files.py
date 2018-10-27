@@ -69,8 +69,33 @@
 #     print(i, ':', newDict[i])
 
 
-cities = ["Bangalore", "Chennai", "Hyderabad", "Delhi", "Trivandrum"]
+# cities = ["Bangalore", "Chennai", "Hyderabad", "Delhi", "Trivandrum"]
+#
+# with open("/home/anushka/Downloads/writefile.txt", "w") as file:
+#     for city in cities:
+#         print(city, file=file, end=',', flush=True)
 
-with open("home/anushka/Downloads/writefile.txt", "w") as file:
-    for city in cities:
-        print(city, file=file)
+# cities = []
+#
+# with open("/home/anushka/Downloads/writefile.txt", "r") as file:
+#     for line in file:
+#         cities.append(line.strip())
+#
+# print(cities)
+#
+# for city in cities:
+#     print(city)
+
+# cities = ["Bangalore", "Chennai", "Hyderabad", "Delhi", "Trivandrum"]
+# newCities = list()
+#
+# with open("/home/anushka/Downloads/writefile.txt", "w") as file:
+#     print(cities, file=file)
+#
+# with open("/home/anushka/Downloads/writefile.txt", "r") as file:
+#     for line in file:
+#         newCities = eval(line)
+#         print(newCities)
+# for city in newCities:
+#     print(city)
+
