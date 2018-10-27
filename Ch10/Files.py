@@ -27,7 +27,50 @@
 #     #     print(line, end='')
 #     # lines = jabber.read()
 
-names = ["Anil", "Kumar", "Narayanan"]
-with open("/home/anushka/Downloads/name.txt", 'w') as files:
-    for name in names:
-        print(name, file=files)
+# names = ["Anil", "Kumar", "Narayanan"]
+# with open("/home/anushka/Downloads/name.txt", 'w') as files:
+#     for name in names:
+#         print(name, file=files)
+
+# splitString = list()
+# length = 0
+# longestWord = ''
+# with open("/home/anushka/Downloads/sample.txt", 'r') as file:
+#     for line in file:
+#         splitString = line.split()
+#         for word in splitString:
+#             if len(word) > length:
+#                 length = len(word)
+#                 longestWord = word
+#
+# print(longestWord, ':', length)
+
+# count = 0
+# with open("/home/anushka/Downloads/sample.txt", 'r') as file:
+#     for line in file:
+#         print(line, end='')
+#         count += 1
+#
+# print(count)
+
+# newDict = {}
+# splitString = list()
+# with open("/home/anushka/Downloads/sample.txt", 'r') as file:
+#     for line in file:
+#         splitString = line.split()
+#         for word in splitString:
+#             if word not in newDict.keys():
+#                 newDict[word] = 1
+#             else:
+#                 temp = newDict[word] + 1
+#                 newDict[word] = temp
+#
+# for i in sorted(newDict):
+#     print(i, ':', newDict[i])
+
+
+cities = ["Bangalore", "Chennai", "Hyderabad", "Delhi", "Trivandrum"]
+
+with open("home/anushka/Downloads/writefile.txt", "w") as file:
+    for city in cities:
+        print(city, file=file)

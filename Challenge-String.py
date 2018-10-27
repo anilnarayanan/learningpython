@@ -75,10 +75,21 @@
 # 0
 
 
+# string = "Python Debugger Extension Available"
+# index = 10
+#
+# newString = string[:index] + string[index+1:]
+#
+# print(newString)
+
+string = "Python Debugger Extension Available"
+newString = ''
+tempCh = string[-1]
+
+newString = str(tempCh) + string[1:-1] + string[0]
 
 
-
-
+print(newString)
 
 
 
