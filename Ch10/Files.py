@@ -156,15 +156,46 @@
 #     # print(shelveObj["MiddleName"])
 #     # print(shelveObj["LastName"])
 
+#
+# import shelve
+#
+# shelveObj = shelve.open("myshelve.txt")
+# shelveObj["Location"] = "Bangalore"
+# shelveObj["State"] = "Karnataka"
+#
+# for key in sorted(shelveObj.values()):
+#     print(key, '-', key)
+#
+# # shelveObj["State"] = "Kerala"
+# #
+# # for key in shelveObj:
+# #     print(key, '-', shelveObj[key])
+#
+#
+# # while True:
+# #     key = input("Enter key: ")
+# #     print(shelveObj.get(key))
+#
+# shelveObj.close()
+#
+import shelve
 
+FirstName = ["Anil", "Kumar", "Narayanan"]
+Location= ["Bangalore"]
+Education = ["MIT", "Australia"]
 
+with shelve.open("shelvelists.txt") as file:
+    file["FirstName"] = FirstName
+    file["Location"] = Location
+    file["Education"] = Education
 
+    for listObj in file:
+        print(file[listObj])
 
+    file["Location"].append("Karnataka")
 
-
-
-
-
+    for listObj in file:
+        print(file[listObj])
 
 
 
