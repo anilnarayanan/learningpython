@@ -126,9 +126,58 @@
 #  12 times 2 is 24
 #  --------------------
 
-with open("/home/anushka/Downloads/writefile.txt", "a") as file:
-    for times in range(3, 13):
-        for seq in range(1, 13):
-            file.write("#\t{1:>2}\ttimes {0}\tis {2}\n".format(times, seq, seq * times))
-        times += 1
-        file.write("=" * 20 + "\n")
+# with open("/home/anushka/Downloads/writefile.txt", "a") as file:
+#     for times in range(3, 13):
+#         for seq in range(1, 13):
+#             file.write("#\t{1:>2}\ttimes {0}\tis {2}\n".format(times, seq, seq * times))
+#         times += 1
+#         file.write("=" * 20 + "\n")
+
+#
+# with open("./binaryFiles.txt", "bw") as binFile:
+#     for i in range(17):
+#         binFile.write(bytes([i]                                                                                                                                                        ))
+#
+# with open("./binaryFiles.txt", "br") as binFile:
+#     for line in binFile:
+#         print(line)
+
+# import  shelve
+#
+# with shelve.open("myshelve.txt") as shelveObj:
+#     shelveObj["FirstName"] = "Anil"
+#     shelveObj["MiddleName"] = "Kumar"
+#     shelveObj["LastName"] = "Narayanan"
+#
+#     del shelveObj["FirsName"]
+#     for key in shelveObj:
+#         print(key)
+#     # print(shelveObj["FirsName"])
+#     # print(shelveObj["MiddleName"])
+#     # print(shelveObj["LastName"])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
